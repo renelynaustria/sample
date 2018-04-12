@@ -1,0 +1,65 @@
+@font-face {font-family: 'MonkyBasic';src: url('/fonts/MonkyBasic.otf')}
+@font-face {font-family: 'RowoTypeface';src: url('/fonts/RowoTypeface.ttf')}
+.container{
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/* index page */
+#index{
+  background: #0ccbcb;
+  font-family: 'MonkyBasic';
+  text-align: center;
+}
+#index h1{
+  font-size: 110px;
+  color: #fff;
+}
+#index .ct01,
+#index .ct02{
+  font-family: 'RowoTypeface';
+}
+#index .ct01{
+  font-size: 200px;
+  text-shadow: -10px 0px #268e8e;
+}
+#index .ct02{
+  font-size: 300px;
+  padding-left: 100px;
+  text-shadow: -17px 0px #268e8e;
+  position: relative;
+  bottom: -35px;
+}
+#index .intro{
+  font-size: 28px;
+}
+#index .socials{
+  padding: 20px 0;
+}
+#index .socials li{
+  float: left;
+  padding: 0 7px;
+}
+#index .socials li a{
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 24px;
+  border: 1px solid #fff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+}
+#index .socials li a span{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#index .socials li a:hover{
+  transition: background-color 0.5s ease;
+  background: #fff;
+  color: #0ccbcb;
+}
